@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GUESS GAME</title>
+        <link rel="stylesheet" href="Guessgame.css" />
+        
+    </head>
+
+    <body>
+        <div class="Game">
+        <h1>Number guessing game</h1>
+        <p class="text"> We  have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your
+            guess is too high or too low.
+        </p>
+        <div class="forms">
+            <label for="guessField">Enter a guess: </label>
+            <input type="text" id="guessField"  class="guessField">
+            <input type="submit" value="Submit Guess" class="guessSubmit" >
+        </div>
+        
+
+    <div class="results">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+</div>
+
+    <script src="Guessgame.js"></script>
+    </body>
+</html>
